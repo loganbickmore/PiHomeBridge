@@ -1,0 +1,167 @@
+{
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CC:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-154"
+  },
+  "platforms": [{
+    "platform": "Nest",
+
+    "token": "c.bioJ8rmEA8MRUJeF3Hb9J22pLqOjPKijT6oRwb0HVpKHqgagtoLyQUQgayzT3Aa9og14pSMGXLe1FSwbr0h7cPs1jSnXwVV4NN18mL5E0Fg4pfOdkGGGTeSZrUoUswCbA9XzejX8q8ySUENV",
+
+    "clientId": "f0b409a6-bdc2-414c-a6de-b900df37e869",
+    "clientSecret": "gPtNLjwT6Flckv2KWgpTqBdQt",
+    "code": "QX9WNSH2",
+
+    "username": "seydelstudio@gmail.com",
+    "password": "Bassman123"
+  } 
+  ],
+
+  "accessories": [{
+      "accessory": "NetworkDevice",
+      "name": "Gaming PC",
+      "mac": "1c:6f:65:c8:20:2b",
+      "ip": "192.168.1.107",
+      "pingInterval": 45,
+      "wakeGraceTime": 90,
+      "shutdownGraceTime": 15,
+      "shutdownCommand": "net rpc shutdown -f -t10 -I 192.168.1.107 -U Todd%Bassman123!"
+    },
+    {
+      "accessory": "NetworkDevice",
+      "name": "Server Mac",
+      "mac": "a8:60:b6:11:fd:7e",
+      "ip": "192.168.1.9",
+      "pingInterval": 45,
+      "wakeGraceTime": 90,
+      "wakeCommand": "ssh 192.168.1.9 caffeinate -u -t 300",
+      "shutdownGraceTime": 15,
+      "shutdownCommand": "ssh 192.168.1.9 sudo shutdown -h now"
+    },
+    {
+      "accessory": "NetworkDevice",
+      "name": "Server Mini",
+      "mac": "10:9a:dd:6f:86:5f",
+      "ip": "192.168.1.254",
+      "pingInterval": 45,
+      "wakeGraceTime": 90,
+      "wakeCommand": "ssh 192.168.1.254 caffeinate -u -t 300",
+      "shutdownGraceTime": 15,
+      "shutdownCommand": "ssh 192.168.1.254 sudo shutdown -h now"
+    },
+    {
+      "accessory": "mqtt-switch-tasmota",
+
+      "name": "Speakers",
+
+      "url": "mqtt://192.168.1.8",
+      "username": "username",
+      "password": "password",
+
+      "topics": {
+        "statusGet": "stat/Speakers/POWER",
+        "statusSet": "cmnd/Speakers/POWER"
+	}
+      },
+      {
+      "accessory": "mqtt-switch-tasmota",
+
+      "name": "House Fan",
+
+      "url": "mqtt://192.168.1.8",
+      "username": "username",
+      "password": "password",
+
+      "topics": {
+        "statusGet": "stat/housefan/POWER",
+        "statusSet": "cmnd/housefan/POWER"
+	}
+      },
+      {
+      "accessory": "mqtt-switch-tasmota",
+
+      "name": "Server Fan",
+
+      "url": "mqtt://192.168.1.8",
+      "username": "username",
+      "password": "password",
+
+      "topics": {
+        "statusGet": "stat/serverfan/POWER",
+        "statusSet": "cmnd/serverfan/POWER"
+        }
+      },
+	{
+		"accessory": "mqtt-temperature-log-tasmota",
+		
+		"name": "Attic",
+
+		"url": "mqtt://192.168.1.8",
+		"username": "username",
+		"password": "password",
+		
+		"topic": "tele/serverfan/SENSOR",
+		
+		"activityTopic": "tele/attictemp/LWT",
+		"activityParameter": "Online",
+		
+		"startCmd": "cmnd/serverfan/TelePeriod",
+		"startParameter": "120",
+		
+		"patchToSave":"/home/pi/.homebridge/temperature/",
+		"savePeriod": "10",
+		"zeroHour": "23",
+		"writeMinAndMax": true,
+		"singleFile": true,
+		
+		"sensorPropertyName": "Sonoff-Tasmota",
+		
+		"manufacturer": "ITEAD",
+		"model": "Sonoff TH",
+		"serialNumberMAC": "ec:fa:bc:86:79:40"
+		
+	},
+	{
+                "accessory": "mqtt-temperature-log-tasmota",
+                
+                "name": "Server",
+
+                "url": "mqtt://192.168.1.8",
+                "username": "username",
+                "password": "password",
+                
+                "topic": "tele/servertemp/SENSOR",
+                
+                "activityTopic": "tele/servertemp/LWT",
+                "activityParameter": "Online",
+                
+                "startCmd": "cmnd/servertemp/TelePeriod",
+                "startParameter": "120",
+                
+                "patchToSave":"/home/pi/.homebridge/temperature/",
+                "savePeriod": "10",
+                "zeroHour": "23",
+                "writeMinAndMax": true,
+                "singleFile": true,
+                
+                "sensorPropertyName": "Sonoff-Tasmota",
+                
+                "manufacturer": "ITEAD",
+                "model": "Sonoff TH",
+                "serialNumberMAC": "68:c6:3a:8b:3b:30"
+                
+        },
+
+{
+      "accessory": "Homebridge-SimpliSafe",
+      "name": "Alarm System",
+      "auth": {
+        "username": "seydelserver@gmail.com",
+        "password": "Bassman123!"
+      }
+
+    }
+  ]
+}

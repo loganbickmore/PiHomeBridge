@@ -1,0 +1,7 @@
+/usr/lib
+├── homebridge-edomoticz@2.1.11
+├── homebridge-tplink-smarthome@4.0.1
+├── homebridge-wol@3.2.4
+├── n@2.1.8
+└── npm@6.4.1
+

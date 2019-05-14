@@ -1,0 +1,51 @@
+{
+bridge": {		"name": "Homebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 51826,
+		"pin": "031-45-154"
+	},
+
+	"platforms": [{
+		"platform": "Nest",
+
+		"token": "c.bioJ8rmEA8MRUJeF3Hb9J22pLqOjPKijT6oRwb0HVpKHqgagtoLyQUQgayzT3Aa9og14pSMGXLe1FSwbr0h7cPs1jSnXwVV4NN18mL5E0Fg4pfOdkGGGTeSZrUoUswCbA9XzejX8q8ySUENV",
+
+		"clientId": "f0b409a6-bdc2-414c-a6de-b900df37e869",
+		"clientSecret": "gPtNLjwT6Flckv2KWgpTqBdQt",
+		"code": "QX9WNSH2",
+
+		"username": "seydelstudio@gmail.com",
+		"password": "Bassman123"
+	}],
+
+	"accessories": [{
+			"accessory": "NetworkDevice",
+			"name": "Gaming PC",
+			"mac": "1c:6f:65:c8:20:2b",
+			"ip": "192.168.1.107",
+			"pingInterval": 45,
+			"wakeGraceTime": 90,
+			"shutdownGraceTime": 15
+			},
+			{
+		  	"accessory": "NetworkDevice",
+		  	"name": "Server Mac"
+		 	"mac": "a8:60:b6:11:fd:7e",
+		  	"ip": "192.168.1.9",
+			"pingInterval": 45,
+			"wakeGraceTime": 90,
+			"shutdownGraceTime": 15
+			"shutdownCommand": "ssh 192.168.1.9 sudo shutdown -h now"
+			},
+
+		{
+			"accessory": "Homebridge-SimpliSafe",
+			"name": "Alarm System",
+			"auth": {
+				"username": "seydelserver@gmail.com",
+				"password": "Bassman123!"
+			}
+
+		}
+	]
+}

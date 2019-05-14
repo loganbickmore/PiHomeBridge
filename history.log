@@ -1,0 +1,1000 @@
+  881  mosquitto_sub -d -u username -P password -t dev/test
+  882  mosquitto_sub -h 192.168.1.8 -t stat/Speakers/POWER -v
+  883  #top
+  884  # to
+  885  # top
+  886  top
+  887  VmStat
+  888  htop
+  889  iotop
+  890  sudo nano mosquitto.conf
+  891  ls
+  892  cd ..
+  893  ls
+  894  cd ..
+  895  ls
+  896  cd etc/
+  897  ls
+  898  cd mosquitto/
+  899  ls
+  900  sudo nano mosquitto.conf 
+  901  cd ~/.homebridge
+  902  sudo nano config.json 
+  903  sudo service homebridge restart
+  904  sudo nano config.json 
+  905  sudo service homebridge restart
+  906  open config.json 
+  907  sudo nano config.json 
+  908  vi config.json 
+  909  sudo nano config.json 
+  910  tail -f /var/log/homebridge.err
+  911  tail -f /var/log/homebridge.log
+  912  homebridge
+  913  sudo nano config.json 
+  914  sudo service homebridge restart
+  915  homebridge
+  916  sudo service homebridge restart
+  917  sudo nano config.json 
+  918  homebridge
+  919  service homebridge
+  920  service homebridge start
+  921  sudo service homebridge restart
+  922  sudo nano ~/.homebridge/config.json 
+  923  sudo service homebridge restart
+  924  cmnd/serverfan/POWER
+  925  cmnd/serverfan/POWER 1
+  926  cmnd/serverfan/POWER OFF
+  927  mosquitto_pub -h 192.168.1.157 -t cmnd/sonoffpi/power -m 1
+  928  mosquitto_pub -h 192.168.1.157 -t cmnd/serverfan/power -m 1
+  929  nano mosquitto.db mosquitto_sub -v -t 'test/serverfan'
+  930  mosquitto_sub -v -t 'test/topic'
+  931  sudo npm install -g homebridge-mqtt-temperature-tasmota
+  932  cmnd/my_house_living_room/Status -m 10
+  933  cmnd/serverfan/Status -m 10
+  934  ls
+  935  cd ~/.homebridge/
+  936  ls
+  937  rm config.json 
+  938  cp config.bak config.json
+  939  ls
+  940  sudo npm uninstall -g homebridge-mqtt-temperature-tasmota
+  941  sudo npm install -g homebridge-mqtt-temperature-log-tasmota
+  942  cd ~/.homebridge/
+  943  vi config.json 
+  944  mosquitto_pub -t 'test/topic' -m 'helloWorld'
+  945  mosquitto_pub -t 'test/topic' -m 'helloWorldsdf'
+  946  ls
+  947  sudo nano config.json 
+  948  mv config.json config.bak
+  949  ls
+  950  cp config.bak 
+  951  cp config.bak config.json
+  952  ls
+  953  sudo nano config.json 
+  954  sudo service homebridge restart
+  955  sudo nano config.json 
+  956  sudo service homebridge restart
+  957  sudo nano config.json 
+  958  sudo service homebridge restart
+  959  sudo nano config.json 
+  960  sudo service homebridge restart
+  961  homebridge
+  962  sudo nano config.json
+  963  sudo service homebridge restart
+  964  sudo nano config.json
+  965  sudo service homebridge restart
+  966  ls
+  967  rm config.json 
+  968  cp config.bak config.json
+  969  ls
+  970  sudo service homebridge restart
+  971  sudo nano config.json
+  972  sudo service homebridge restart
+  973  sudo nano config.json
+  974  sudo service homebridge restart
+  975  sudo nano config.json
+  976  ~cd ~/.homebridge/
+  977  cd ~/.homebridge/
+  978  ls
+  979  sudo nano config.json 
+  980  sudo service homebridge reboot
+  981  sudo service homebridge restart
+  982  homebridge
+  983  sudo nano config.json 
+  984  homebridge
+  985  sudo service homebridge restart
+  986  sudo nano config.json 
+  987  cd ~/.homebridge/
+  988  vi config.json 
+  989  sudo nano config.json
+  990  sudo service homebridge restart
+  991  cd ~/.homebridge/
+  992  ls
+  993  cd accessories/
+  994  ls
+  995  cd ..
+  996  ls
+  997  vi config.json
+  998  ls
+  999  cd //
+ 1000  ls
+ 1001  nano SonoffMQTT_accessory.js
+ 1002  ls
+ 1003  cd //
+ 1004  ls
+ 1005  cd root
+ 1006  nano cd root
+ 1007  sudo cd root
+ 1008  root
+ 1009  ls
+ 1010  cd ~/.homebridge/
+ 1011  ls
+ 1012  cd tmp
+ 1013  ls
+ 1014  cd //
+ 1015  ls
+ 1016  cd ~/.homebridge/
+ 1017  ls
+ 1018  cd accessories/
+ 1019  ls
+ 1020  cd ..
+ 1021  ls
+ 1022  nano config.json 
+ 1023  ls
+ 1024  sudo service homebridge restart
+ 1025  ls
+ 1026  tail -f /var/log/homebridge.log
+ 1027  ls
+ 1028  mk dir temperature
+ 1029  dir temperature
+ 1030  mkdir temperature
+ 1031  ls
+ 1032  sudo service homebridge restart
+ 1033  tail -f /var/log/homebridge.log
+ 1034  ls
+ 1035  cd temperature/
+ 1036  ls
+ 1037  cd //
+ 1038  ls
+ 1039  cd pi/.homebridge
+ 1040  sudo nano ~/.homebridge/config.json 
+ 1041  sudo service homebridge restart
+ 1042  ls
+ 1043  cd ~/.homebridge/
+ 1044  ls
+ 1045  cd temperature/
+ 1046  ls
+ 1047  su
+ 1048  cd ..
+ 1049  cd //
+ 1050  ls
+ 1051  su
+ 1052  whoami
+ 1053  cd user
+ 1054  cd usr
+ 1055  ls
+ 1056  cd pi
+ 1057  cd ..
+ 1058  ls
+ 1059  cd root
+ 1060  sudo cd root
+ 1061  ls
+ 1062  sudo cd media
+ 1063  cd root
+ 1064  cd root sudo
+ 1065  sudo
+ 1066  cd sbin
+ 1067  cd root/.homebridge
+ 1068  cd root
+ 1069  ls
+ 1070  cd ..
+ 1071  cd root/.homebridge
+ 1072  su
+ 1073  sudo su
+ 1074  ls
+ 1075  vi falsesonoff_temperature.csv
+ 1076  nano falseserver_teperature.csv
+ 1077  vi falseserverfan_temperature.csv
+ 1078  vi falseservertemp_temperature.csv
+ 1079  cd .homebridge/
+ 1080  ls
+ 1081  cd temperature/
+ 1082  ls
+ 1083  cd ..
+ 1084  ls
+ 1085  cd ..
+ 1086  ls
+ 1087  vi falseservertemp_temperature.csv
+ 1088  ls
+ 1089  sudo nano .homebridge/config.json 
+ 1090  ls
+ 1091  sudo nano .homebridge/config.json 
+ 1092  sudo services homebridge restart
+ 1093  sudo service homebridge restart
+ 1094  sudo nano .homebridge/config.json 
+ 1095  sudo service homebridge restart
+ 1096  tail -f /var/log/homebridge.log
+ 1097  tail -f /var/log/homebridge.err
+ 1098  sudo service homebridge restart
+ 1099  tail -f /var/log/homebridge.log
+ 1100  sudo nano .homebridge/config.json 
+ 1101  sudo service homebridge restart
+ 1102  tail -f /var/log/homebridge.log
+ 1103  ls
+ 1104  tail -f falseservertemp_temperature.csv
+ 1105  tail -f falseserverfan_temperature.csv
+ 1106  time
+ 1107  timezone
+ 1108  date
+ 1109  ls
+ 1110  vi falseserverfan_temperature.csv
+ 1111  tail -f falseservertemp_temperature.csv
+ 1112  ls
+ 1113  pip install plotly
+ 1114  ls
+ 1115  plotly
+ 1116  ls
+ 1117  py
+ 1118  py = plotly.plotly
+ 1119  py = plotly.plotly(
+ 1120  py = plotly.plotly("seydelserver")
+ 1121  ps
+ 1122  top
+ 1123  hyop
+ 1124  htop
+ 1125  plotly
+ 1126  py = plotly.plotly("seydelserver", "tu2k7KDojgu9YjYNxoa8")
+ 1127  py
+ 1128  python
+ 1129  ls
+ 1130  where plotly
+ 1131  where
+ 1132  whereis
+ 1133  whereis plotly
+ 1134  ls
+ 1135  cd plotly
+ 1136  plotly?
+ 1137  plotly:
+ 1138  python
+ 1139  ls
+ 1140  scp falseserverfan_temperature.csv todd@localhost:/Downloads
+ 1141  scp falseserverfan_temperature.csv todd:/Downloads
+ 1142  scp falseserverfan_temperature.csv localhost:/Downloads
+ 1143  scp falseserverfan_temperature.csv ~/Downloads
+ 1144  scp falseserverfan_temperature.csv Desktop
+ 1145  scp falseserverfan_temperature.csv home/user/Todd/Desktop
+ 1146  scp falseserverfan_temperature.csv user/Todd/Desktop
+ 1147  scp falseserverfan_temperature.csv Todd/Desktop
+ 1148  scp falseserverfan_temperature.csv /Desktop
+ 1149  sudo scp falseserverfan_temperature.csv /Desktop
+ 1150  sudo scp falseservertemp_temperature.csv /Desktop
+ 1151  sudo cp falseserverfan_temperature.csv /Desktop
+ 1152  sudo cp falseserverfan_temperature.csv /desktop
+ 1153  ls
+ 1154  tail -f falseserverfan_temperature.csv
+ 1155  tail -f falseservertemp_temperature.csv
+ 1156  sudo cp falseservertemp_temperature.csv /desktop
+ 1157  sudo cp falseserverfan_temperature.csv /desktop
+ 1158  sudo scp falseservertemp_temperature.csv /Desktop
+ 1159  sudo cp falseserverfan_temperature.csv /desktop
+ 1160  ls
+ 1161  cd .homebridge/
+ 1162  nano config.json 
+ 1163  sudo service homebridge restart
+ 1164  sudo cp falseservertemp_temperature.csv /desktop
+ 1165  ls
+ 1166  cd ..
+ 1167  ls
+ 1168  sudo cp falseservertemp_temperature.csv /desktop
+ 1169  cp falseservertemp_temperature.csv /desktop
+ 1170  sudo cp falseservertemp_temperature.csv /desktop
+ 1171  ls
+ 1172  sudo cp falseservertemp_temperature.csv /desktop
+ 1173  sudo cp falseservertemp_temperature.csv /download
+ 1174  sudo cp falseservertemp_temperature.csv /downloads
+ 1175  sudo cp falseservertemp_temperature.csv /Desktop
+ 1176  sudo scp falseservertemp_temperature.csv /Desktop
+ 1177  sudo scp falseservertemp_temperature.csv /Todd/Desktop
+ 1178  sudo scp falseservertemp_temperature.csv /todd/Desktop
+ 1179  sudo scp falseservertemp_temperature.csv Desktop
+ 1180  ls
+ 1181  cd .homebridge/
+ 1182  ls
+ 1183  cd temperature/
+ 1184  ls
+ 1185  nano ~/.homebridge/config.json 
+ 1186  ls
+ 1187  cd ..
+ 1188  ls
+ 1189  cd ..
+ 1190  ls
+ 1191  ;s
+ 1192  ls
+ 1193  tail -f falseservertemp_temperature.csv
+ 1194  ls
+ 1195  nano ~/.homebridge/config.json 
+ 1196  sudo service homebridge restart
+ 1197  ls
+ 1198  cd .homebridge/
+ 1199  ls
+ 1200  cd accessories/
+ 1201  ls
+ 1202  cd ..
+ 1203  ls
+ 1204  cd temperature/
+ 1205  ls
+ 1206  cd ..
+ 1207  ls
+ 1208  cd persist/
+ 1209  ls
+ 1210  cd ..
+ 1211  ls
+ 1212  cd node_modules/
+ 1213  ls
+ 1214  cd ..
+ 1215  ls
+ 1216  cd //
+ 1217  ls
+ 1218  find homebridge-mqtt
+ 1219  ls
+ 1220  cd home
+ 1221  ls
+ 1222  cd pi
+ 1223  cd
+ 1224  ls
+ 1225  cd //
+ 1226  ls
+ 1227  cd home
+ 1228  cd ..
+ 1229  ls
+ 1230  cd bin
+ 1231  ls
+ 1232  cd ..
+ 1233  ls
+ 1234  cd ~/.node
+ 1235  ls
+ 1236  cd ~/.npm
+ 1237  ls
+ 1238  cd ..
+ 1239  cd .config
+ 1240  ls
+ 1241  cd ..
+ 1242  tail -f /var/log/homebridge.log
+ 1243  homebridge -P node_modules
+ 1244  homebrdige
+ 1245  homebridge
+ 1246  ls
+ 1247  cd //
+ 1248  ls
+ 1249  cd usr
+ 1250  cd local
+ 1251  cd lib
+ 1252  cd node_modules/
+ 1253  ls
+ 1254  cd homebridge-mqtt-temperature-log-tasmota/
+ 1255  ls
+ 1256  nano config.json 
+ 1257  ls
+ 1258  cd node_modules/
+ 1259  ls
+ 1260  cd ..
+ 1261  ls
+ 1262  vi README.md 
+ 1263  ls
+ 1264  nano index.js 
+ 1265  cd //
+ 1266  ls
+ 1267  nano ~/.homebridge/config.json 
+ 1268  ls
+ 1269  cd home
+ 1270  cd pi
+ 1271  cd .homebridge/
+ 1272  ls
+ 1273  sudo service homebridge restart
+ 1274  ls
+ 1275  cd temperature/
+ 1276  ls
+ 1277  cd ..
+ 1278  ls
+ 1279  cd //
+ 1280  ls
+ 1281  cd //
+ 1282  cd usr/local/lib
+ 1283  cd node_modules/
+ 1284  cd homebridge
+ 1285  ls
+ 1286  cd node_modules/
+ 1287  ls
+ 1288  cd ..
+ 1289  ls
+ 1290  cd lib
+ 1291  ls
+ 1292  cd ..
+ 1293  cd bin
+ 1294  ls
+ 1295  cd ..
+ 1296  ls
+ 1297  cd node_modules/
+ 1298  ls
+ 1299  cd chalk/
+ 1300  ls
+ 1301  cd ..
+ 1302  ls
+ 1303  cd commander/
+ 1304  ls
+ 1305  cd ..
+ 1306  cd .
+ 1307  cd ..
+ 1308  ls
+ 1309  cd ..
+ 1310  ls
+ 1311  cd homebridge-mqtt-temperature-log-tasmota/
+ 1312  ls
+ 1313  vi config
+ 1314  ls
+ 1315  nano config.json
+ 1316  ls
+ 1317  nano package.json
+ 1318  nano node_modules/
+ 1319  nano index.js 
+ 1320  .home
+ 1321  .cd //
+ 1322  ls
+ 1323  cd lib
+ 1324  cd //
+ 1325  cd lib
+ 1326  ls
+ 1327  cd ..
+ 1328  ls
+ 1329  cd bin
+ 1330  ls
+ 1331  cd ..
+ 1332  ls
+ 1333  cd var
+ 1334  ls
+ 1335  cd lib
+ 1336  ls
+ 1337  cd /usr/local/lib/node_modules/homebridge/
+ 1338  ls
+ 1339  cd node_modules/
+ 1340  ls
+ 1341  cd ..
+ 1342  ls
+ 1343  cd lib
+ 1344  ls
+ 1345  cd //
+ 1346  ls
+ 1347  cd/ /
+ 1348  cd //
+ 1349  ls
+ 1350  cd sys
+ 1351  ls
+ 1352  cd ..
+ 1353  ls
+ 1354  cd var
+ 1355  cd lib
+ 1356  ls
+ 1357  cd //
+ 1358  cd /usr/local/bin/
+ 1359  ls
+ 1360  cd hom
+ 1361  cd node
+ 1362  cd //
+ 1363  homebridge.log
+ 1364  tail -f /var/log/homebridge.log
+ 1365  vi /var/log/homebridge.log
+ 1366  ls
+ 1367  cd ~/.homebridge/
+ 1368  ls
+ 1369  nano config.json 
+ 1370  sudo service homebridge restart
+ 1371  ls
+ 1372  cd //
+ 1373  cd ~
+ 1374  ls
+ 1375  tail -f falseserverfan_temperature.csv
+ 1376  ls
+ 1377  cd .homebridge/
+ 1378  ls
+ 1379  cd temperature/
+ 1380  ls
+ 1381  tail -f serverfan_temperature.csv
+ 1382  cd ..
+ 1383  nano config.json 
+ 1384  ls
+ 1385  tail -f temperature/serverfan_temperature.csv
+ 1386  ls
+ 1387  cd temperature/
+ 1388  ls
+ 1389  cd //
+ 1390  ls
+ 1391  plotly
+ 1392  plot.ly
+ 1393  py
+ 1394  ~/.plotly/
+ 1395  ls
+ 1396  cd ~
+ 1397  ls
+ 1398  .plotly
+ 1399  cd .plotly/
+ 1400  ls
+ 1401  python
+ 1402  ls
+ 1403  python
+ 1404  ls
+ 1405  cd //
+ 1406  ls
+ 1407  sudo python
+ 1408  python
+ 1409  ls
+ 1410  cd ~
+ 1411  ls
+ 1412  cd .plotly/
+ 1413  ls
+ 1414  cd ..
+ 1415  find .credentials
+ 1416  find
+ 1417  cd .plotly/
+ 1418  ls
+ 1419  cd ..
+ 1420  cd .plotly/
+ 1421  find
+ 1422  find credentials
+ 1423  find
+ 1424  find .credentials
+ 1425  ls
+ 1426  nano .credentials
+ 1427  cd ~
+ 1428  cd .plotly/
+ 1429  nano .credentials 
+ 1430  nano .config
+ 1431  ls
+ 1432  ls.
+ 1433  sudo ls
+ 1434  ~/.plotly/
+ 1435  cd ~
+ 1436  cd .plotly/
+ 1437  ls
+ 1438  cd ..
+ 1439  cd .asdf
+ 1440  ls
+ 1441  cd ~/.homebridge/
+ 1442  ls
+ 1443  cd temperature/
+ 1444  ls
+ 1445  vi serverfan_temperature.csv 
+ 1446  ls
+ 1447  vi servertemp_temperature.csv 
+ 1448  cd ~/.homebridge/
+ 1449  ls
+ 1450  rm config.bak
+ 1451  ls
+ 1452  cp config.json config.bak
+ 1453  ls
+ 1454  nano config.js
+ 1455  nano config.json 
+ 1456  npm install -g homebridge-platform-wemo
+ 1457  sudo npm install -g homebridge-platform-wemo
+ 1458  sudo service homebridge restart
+ 1459  homebridge
+ 1460  nano config.json 
+ 1461  sudo service homebridge restart
+ 1462  homebridge
+ 1463  nano config.json 
+ 1464  sudo service homebridge restart
+ 1465  homebridge
+ 1466  nano config.json 
+ 1467  homebridge
+ 1468  sudo service homebridge restart
+ 1469  tail -f /var/log/homebridge.log
+ 1470  tail -f /var/log/homebridge.err
+ 1471  sudo reboot
+ 1472  homebridge
+ 1473  tail -f /var/log/homebridge.log
+ 1474  sudo reboot
+ 1475  ls
+ 1476  cp falsesonoff_temperature.csv /Users/Todd/Desktop/Temperature\ at\ the\ Seydel\ House 
+ 1477  ls
+ 1478  cd .homebridge/
+ 1479  ls
+ 1480  cd temperature/
+ 1481  ls
+ 1482  cd ..
+ 1483  ls
+ 1484  sudo nano config.json 
+ 1485  cd temperature/
+ 1486  clear
+ 1487  ls
+ 1488  ls
+ 1489  cd .homebridge/
+ 1490  ls
+ 1491  cd temperature/
+ 1492  ls
+ 1493  tail servertemp_temperature_2018-07-01.csv
+ 1494  tail servertemp_temperature.csv
+ 1495  time
+ 1496  whattimeisut
+ 1497  time
+ 1498  timesey
+ 1499  timeset
+ 1500  date
+ 1501  sudo raspi-config
+ 1502  date
+ 1503  tail servertemp_temperature.csv
+ 1504  ls
+ 1505  cd .homebridge/
+ 1506  ls
+ 1507  cd temperature/
+ 1508  ls
+ 1509  date
+ 1510  ls
+ 1511  nano serverfan_temperature.csv 
+ 1512  date
+ 1513  nano serverfan_temperature.csv 
+ 1514  pip install wifi-qrcode-generator
+ 1515  wifi-qrcode-generator
+ 1516  sudo reboot
+ 1517  ls
+ 1518  cd .homebridge/
+ 1519  ls
+ 1520  nano config.json 
+ 1521  homebridge reboot
+ 1522  sudo reboot
+ 1523  cd home
+ 1524  cd .homebridge/
+ 1525  homebridge
+ 1526  cd .homebridge/
+ 1527  ls
+ 1528  homebridge
+ 1529  nano config.json 
+ 1530  sudo reboot
+ 1531  cd .homebridge/
+ 1532  nano config.json
+ 1533  sudo reboot
+ 1534  sudo npm install -g homebridge
+ 1535  sudo npm install -g homebridge-webos-tv
+ 1536  cd .homebridge/
+ 1537  nano config.json 
+ 1538  homebridge
+ 1539  nano config.json 
+ 1540  homebridge
+ 1541  nano config.json 
+ 1542  homebridge
+ 1543  nano config.json 
+ 1544  homebridge
+ 1545  reboot
+ 1546  sudo reboot
+ 1547  nano .homebridge/config.json 
+ 1548  sudo reboot
+ 1549  nano .homebridge/config.json 
+ 1550  sudo reboot
+ 1551  nano .homebridge/config.json 
+ 1552  sudo reboot
+ 1553  nano .homebridge/config.json 
+ 1554  sudo reboot
+ 1555  nano .homebridge/config.json 
+ 1556  homebridge
+ 1557  sudo reboot
+ 1558  nano .homebridge/config.json 
+ 1559  sudo reboot
+ 1560  nano .homebridge/config.json 
+ 1561  sudo reboot
+ 1562  nano .homebridge/config.json 
+ 1563  sudo reboot
+ 1564  ip config
+ 1565  ipaddress
+ 1566  ip
+ 1567  ip address
+ 1568  npm install -g homebridge-octoprint
+ 1569  sudo npm install -g homebridge-octoprint
+ 1570  chime
+ 1571  ifconfig
+ 1572  nano .homebridge/config.json
+ 1573  sudo reboot
+ 1574  if config; 
+ 1575  sudo if config
+ 1576  sudo ifconfig
+ 1577  nano .homebridge/config.json
+ 1578  sudo reboot
+ 1579  reboot
+ 1580  sudo reboot
+ 1581  tail -f /var/log/homebridge.log
+ 1582  tail -f /var/log/homebridge.err
+ 1583  homebridge -v
+ 1584  homebridge
+ 1585  sudo homebridge
+ 1586  sudo reboot
+ 1587  ls
+ 1588  sudo npm install -g --unsafe-perm homebridge@latest
+ 1589  npm i -g npm
+ 1590  sudo npm i -g npm
+ 1591  homebridge
+ 1592  cd .homebridge/
+ 1593  ls
+ 1594  nano config.json 
+ 1595  homebridge
+ 1596  sudo reboot
+ 1597  ls
+ 1598  homebridge
+ 1599  cd .homebridge
+ 1600  ls
+ 1601  nano config.json 
+ 1602  ls
+ 1603  cp config.json /Users/todd/Desktop/homebridge
+ 1604  sudo cp config.json
+ 1605  cp --help
+ 1606  cp config.json /Users/todd/Desktop/homebridge
+ 1607  cp config.json Desktop/homebridge
+ 1608  ls
+ 1609  whoami
+ 1610  ls
+ 1611  scp config.json /Users/todd/Desktop/homebridge 
+ 1612  cp .homebridge/config.json /Users/todd/Desktop/homebridge 
+ 1613  scp config.json /Users/todd/Desktop/homebridge 
+ 1614  scp config.json /Users/todd/Desktop/homebridge/config
+ 1615  scp config.json /Users/todd/Desktop/homebridge/config.json
+ 1616  scp config.json /Users/todd/Desktop
+ 1617  homebridge
+ 1618  ls
+ 1619  nano config.json
+ 1620  rename
+ 1621  raname config.json configgg.j
+ 1622  ls
+ 1623  rename help
+ 1624  rename --help
+ 1625  rename config.json
+ 1626  sudo rename config.json
+ 1627  nano config.json 
+ 1628  ls
+ 1629  mk dir test
+ 1630  mk
+ 1631  make dir test
+ 1632  make
+ 1633  ls
+ 1634  mv config.json persist
+ 1635  ls
+ 1636  homebridge
+ 1637  ls
+ 1638  mk config.json
+ 1639  nano config.json
+ 1640  homebridge
+ 1641  sudo homebridge
+ 1642  quit
+ 1643  homebridge
+ 1644  sudo reboot
+ 1645  tail -f /var/log/homebridge.err
+ 1646  ls
+ 1647  cd .homebridge/
+ 1648  ls
+ 1649  sudo nano config.json 
+ 1650  node --version
+ 1651  sudo node --version
+ 1652  node --update
+ 1653  ls
+ 1654  sudo npm outdated -g
+ 1655  npm outdated -g
+ 1656  ls
+ 1657  homebridge --version
+ 1658  sudo homebridge --version
+ 1659  sudo npm install -g homebridge-tplink-smarthome
+ 1660  sudo reboot
+ 1661  tail -f /var/log/homebridge.log
+ 1662  tail -f /var/log/homebridge.err
+ 1663  sudo homebridge
+ 1664  apt list nodejs
+ 1665  sudo apt install nodejs
+ 1666  sudo apt install node
+ 1667  apt list node
+ 1668  node -v
+ 1669  sudo apt install nodejs
+ 1670  apt install nodejs
+ 1671  sudo apt install nodejs
+ 1672  apt list node -a
+ 1673  apt list nodejs -a
+ 1674  apt list nodejs
+ 1675  node --version
+ 1676  node -V
+ 1677  node -v
+ 1678  sudo npm outdated -g --depth=0
+ 1679  npm outdated -g --depth=0
+ 1680  nps -v
+ 1681  npm -v
+ 1682  sudo npm install -g --unsafe-perm homebridge@latest
+ 1683  npm -v
+ 1684  node -vnode -v\
+ 1685  node -vnode -v
+ 1686  node -v
+ 1687  sudo node -v
+ 1688  sudo apt update
+ 1689  apt list nodejs
+ 1690  sudo apt install node
+ 1691  sudo node -v
+ 1692  sudo nodejs -v
+ 1693  apt list node
+ 1694  ls
+ 1695  cd .homebridge/
+ 1696  ls
+ 1697  node --version
+ 1698  sudo apt remove node
+ 1699  sudo apt remove nodejs
+ 1700  sudo apt install nodejs
+ 1701  node -v
+ 1702  sudo reboot
+ 1703  node -v
+ 1704  sudo node -v
+ 1705  where noe
+ 1706  where node
+ 1707  apt remove node
+ 1708  sudo apt remove node
+ 1709  nodejs -v
+ 1710  Sudo apt-get remove nodejs
+ 1711  sudo apt remove nodejs
+ 1712  cd /usr/lib/node_modules
+ 1713  ls
+ 1714  cd n
+ 1715  ls
+ 1716  cd ..
+ 1717  ls
+ 1718  cd ..
+ 1719  ls
+ 1720  whereis node
+ 1721  cd /usr/local/bin/nod
+ 1722  cd //
+ 1723  cd /usr/local/bin/nod
+ 1724  cd /usr/local/bi
+ 1725  cd /usr/local/bin
+ 1726  ls
+ 1727  nano node
+ 1728  tail node
+ 1729  ls
+ 1730  node -v
+ 1731  nodejs -v
+ 1732  whereis homebridge
+ 1733  ls
+ 1734  mkdir ~/bin.back
+ 1735  ls
+ 1736  sudo mkdir ~/bin.back
+ 1737  ls
+ 1738  mv /usr/local/bin/npm ~/bin.back
+ 1739  sudo mv /usr/local/bin/npm ~/bin.back
+ 1740  lssudo apt install nodejs
+ 1741  sudo mv /usr/local/bin/npx ~/bin.back
+ 1742  sudo mv /usr/local/bin/node-gyp ~/bin.back
+ 1743  ls
+ 1744  sudo mv /usr/local/bin/node ~/bin.back
+ 1745  lsa
+ 1746  ls
+ 1747  node -v
+ 1748  nodejs -v
+ 1749  sudo apt install nodejs
+ 1750  node -v
+ 1751  ls
+ 1752  nodejs -v
+ 1753  sudo reboot
+ 1754  node -v
+ 1755  nodejs -v
+ 1756  sudo homebridge
+ 1757  DEBUG=* homebridge -D
+ 1758  sudo DEBUG=* homebridge -D
+ 1759  npm update -g homebridge-tplink-smarthome
+ 1760  sudo npm update -g homebridge-tplink-smarthome
+ 1761  ls
+ 1762  npm install -g homebridge-tplink-smarthome
+ 1763  sudo npm install -g homebridge-tplink-smarthome
+ 1764  sudo npm uninstall -g homebridge-tplink-smarthome
+ 1765  homebridge
+ 1766  sudo homebridge
+ 1767  sudo reboot
+ 1768  tail /var/log/homebridge.log
+ 1769  tail /var/log/homebridge.err
+ 1770  homebridge
+ 1771  cd .homebridge/
+ 1772  ls
+ 1773  nano config.json 
+ 1774  tail /var/log/homebridge.err
+ 1775  tail /var/log/homebridge.log
+ 1776  tail /var/log/homebridge.log -f
+ 1777  tail /var/log/homebridge.err -f
+ 1778  tail /var/log/homebridge.log -f
+ 1779  ls
+ 1780  cd .homebridge/
+ 1781  ls
+ 1782  whereis homebridge
+ 1783  cd //
+ 1784  ls
+ 1785  whereis homebridge
+ 1786  cd /usr/local/bin/homebridge
+ 1787  ls
+ 1788  cd /usr/local/bin
+ 1789  ls
+ 1790  tail /var/log/homebridge.log
+ 1791  nano /var/log/homebridge.log
+ 1792  ls
+ 1793  tail /var/log/homebridge.log
+ 1794  cd //
+ 1795  ls
+ 1796  cd .home
+ 1797  cd home
+ 1798  ls
+ 1799  cd pi
+ 1800  cd .homebridge/
+ 1801  ls
+ 1802  cd config.j
+ 1803  nano config.j
+ 1804  nano config.json 
+ 1805  ls
+ 1806  cd //
+ 1807  whereis homebridge
+ 1808  cd /usr/local/bin/
+ 1809  ls
+ 1810  /usr/local/lib/node_modules/
+ 1811  cd /usr/local/lib/node_modules/
+ 1812  ls
+ 1813  sudo npm update homebridge-platform-wemo
+ 1814  sudo npm audit fix
+ 1815  ls
+ 1816  npm update -g homebridge-platform-wemo
+ 1817  homebtidg-platform-wemo -v
+ 1818  sudo npm outdated
+ 1819  sudo npm install -g homebridge-edomoticz
+ 1820  sudo npm outdated
+ 1821  cd ~/.homebridge
+ 1822  ls
+ 1823  rm acessories
+ 1824  sudo rm accessories/
+ 1825  rmdir accessories/
+ 1826  sudo rmdir accessories/
+ 1827  ls
+ 1828  cd accessories/
+ 1829  ls
+ 1830  rm cachedAccessories 
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  rm -rf persistbackup.bak/
+ 1835  ls
+ 1836  sudo reboot
+ 1837  ls
+ 1838  sudo homebridge
+ 1839  ls
+ 1840  sudo passwd
+ 1841  tmux ls
+ 1842  ls
+ 1843  clear
+ 1844  ls
+ 1845  clear
+ 1846  ls
+ 1847  cd .homebridge
+ 1848  pwd
+ 1849  ls
+ 1850  clear
+ 1851  ls
+ 1852  ls persist/
+ 1853  cat config.
+ 1854  cat config.json 
+ 1855  cat config.json | less
+ 1856  ls
+ 1857  ls accessories/
+ 1858  ls tmp
+ 1859  ls temperature/
+ 1860  npm -h
+ 1861  npm ls
+ 1862  npm list -g --depth=0
+ 1863  ls
+ 1864  npm list -g | grep 'homebridge'
+ 1865  ls
+ 1866  cat config.json |less
+ 1867  cat config.json | grep nest
+ 1868  ls
+ 1869  cat config.json | grep nest
+ 1870  cat config.json |less
+ 1871  cd ..
+ 1872  mkdir todds-homebridge
+ 1873  cd todds-homebridge/
+ 1874  ls
+ 1875  cp -a ../.homebridge/ .
+ 1876  ls
+ 1877  ls .
+ 1878  ls -a
+ 1879  ls .homebridge/
+ 1880  history | cat > history.log
